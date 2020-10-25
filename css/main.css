@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: 400;
     list-style-type: none;
+    margin: 0;
     
 }
 
@@ -24,8 +25,8 @@ ul{ list-style-type: none;}
     /*background-color: brown;*/}
 .logo {
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
     display: flex;   
     list-style-type: none;
     color: #070707;
@@ -57,7 +58,7 @@ ul{ list-style-type: none;}
     margin: 0;
     }
 .con1
- {margin-top: 94px;}
+ {padding-top: 94px;}
 
 .logo-st
 {
@@ -102,7 +103,7 @@ ul{ list-style-type: none;}
     text-align: center;
     display: block;
     letter-spacing: 0.06em;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 
 }
 .menu1
@@ -111,8 +112,8 @@ ul{ list-style-type: none;}
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 30px;
-    margin-top: 200px;
+    padding-bottom: 30px;
+    padding-top: 200px;
        
     width: 696px;
     height: 120px;
@@ -139,8 +140,9 @@ ul{ list-style-type: none;}
 
 .section1
 {
-    margin-bottom: 0;
-    margin-top: 0px;    
+    text-transform: uppercase;
+    padding-bottom: 0;
+    padding-top: 0px;    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -150,8 +152,8 @@ ul{ list-style-type: none;}
 }
 .section1-second
 {
-    margin-bottom: 0px;
-    margin-top: 10px;  
+    padding-bottom: 0px;
+    padding-top: 10px;  
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -225,12 +227,12 @@ ul{ list-style-type: none;}
 }
 
 .footer
-{  padding: 0;
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
+{  
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
    /* background: darkmagenta;*/
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -258,7 +260,7 @@ margin-left: 0;}
 {margin-right: 8px;}
 .page1{
     
-    margin-top: 94px;
+    
     padding: 6px 22px 6px 22px;
     font-weight: 500;
     font-size: 16px;
@@ -271,23 +273,25 @@ margin-left: 0;}
 
 .signature-page1-sec{
 
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-right: 24px;
-    margin-left: 24px;
+    /*margin-bottom: 50px;*/
+    /*margin-top: 0;*/
+    padding-right: 23px;
+    padding-left: 23px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
     }
-
+.border
+    {border: 1px solid #2196F3;
+    margin-bottom: 30px;}
 .por11
 {justify-content:center;}
 .por1
 { 
     display: flex;
-    margin: 0;
+    margin-top: 94px;
     
 }
 .item2
@@ -310,8 +314,8 @@ margin-left: 0;}
 }
 .signaturep2
 {
-    margin-bottom: 20px;
-    margin-top: 4px;
-    margin-right: 24px;
-    margin-left: 24px;
+    padding-bottom: 19px;
+    padding-top: 4px;
+    padding-right: 23px;
+    padding-left: 23px;
 }
