@@ -9,6 +9,10 @@ body {
     
 }
 
+.header
+{
+    border: 1px solid #ECECEC;; 
+}
 .header-flax
 {
     /*background: darkblue;*/
@@ -53,9 +57,9 @@ ul{ list-style-type: none;}
 
 .adress
 {
-  
+    padding: 0;
     display: flex;
-    
+    margin: 0;
     }
 .con1
  {padding-top: 94px;}
@@ -163,18 +167,19 @@ ul{ list-style-type: none;}
 {
     text-align: center;
     display: block;
-    margin-top: 94px; 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #212121;
 }
-
+.chem{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team{
    
     margin-bottom: 0px;
-    margin-top: 94px;
     margin-left: 38%;
     margin-right: 38%;
     text-align: center;
@@ -182,6 +187,7 @@ ul{ list-style-type: none;}
       
 }
 .team1{
+    padding-top: 94px;
     display: inline-block; 
     display: block;
     /*background-color: blueviolet;*/
@@ -228,11 +234,10 @@ ul{ list-style-type: none;}
 
 .footer
 {  
-    padding-left: 0;
-    padding-top: 0;
-    padding-right: 0;
+    padding: 0;
+    margin: 0;
    /* background: darkmagenta;*/
-    padding-bottom: 60px;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -246,15 +251,20 @@ ul{ list-style-type: none;}
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
  }
+ .footerlof
+  {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    /*background: chartreuse;*/}
  .footerlofo
  {
     margin-left: 0;
-    margin-top: 60px;
     margin-bottom: 20px;
  }
  .footera1:not(:last-child) 
  {margin-bottom: 8px;
 margin-left: 0;}
+
 /*page2*/
 .page:not(:last-child) 
 {margin-right: 8px;}
