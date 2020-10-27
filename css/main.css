@@ -45,7 +45,9 @@ ul{ list-style-type: none;}
     align-items:baseline;
     display: flex;
     text-align: center;
+    margin: 0;
     padding: 0;
+    padding-bottom: 20px;
     text-decoration: none;
     list-style-type: none;
     font-weight: 700;
@@ -260,11 +262,11 @@ ul{ list-style-type: none;}
       padding-top: 60px;
       padding-bottom: 60px;
     /*background: chartreuse;*/}
- .footerlofo
+ /*.footerlofo
  {
     margin-left: 0;
     margin-bottom: 20px;
- }
+ }*/
  .footera1:not(:last-child) 
  {
      padding-bottom: 8px;
@@ -293,37 +295,50 @@ ul{ list-style-type: none;}
     /*margin-bottom: 50px;*/
     /*margin-top: 0;*/
     margin: 0;
-    padding-right: 23px;
+    /*padding-right: 23px;
     padding-bottom: 19px;
-    padding-left: 23px;
+    padding-left: 23px;*/
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
     }
-.border
-    {border: 1px solid #EEEEEE;
-    margin-bottom: 30px;}
 .por11
 {justify-content:center;}
+
+.portfol
+{   padding-top: 94px;
+    padding-bottom: 94px;
+}
+.porfimg
+{   padding-top: 50px;
+    padding-bottom: 19px;
+    padding-right: 23px;
+    padding-left: 23px;
+    /*margin-bottom: 30px;*/}
+
 .por1
 { 
     display: flex;
-    padding-top: 94px;
     margin: 0;
     
 }
 .item2
 {
+    margin: 0%;
     margin-right: 30px;
+}
+ 
+.border
+    {
+        border: 1px solid #EEEEEE;
+        margin-bottom: 30px;
 }
 
 .signature-page1
 {
-    
     padding: 0;
-    padding-bottom: 94px;
     padding-top: 50px;
     /*background: chartreuse;*/
     display: flex; 
@@ -337,8 +352,9 @@ ul{ list-style-type: none;}
 .signaturep2
 {
     margin: 0;
-    padding-bottom: 19px;
+    padding-bottom: 4px;
+    /*padding-bottom: 19px;
     padding-top: 4px;
     padding-right: 23px;
-    padding-left: 23px;
+    padding-left: 23px;*/
 }
