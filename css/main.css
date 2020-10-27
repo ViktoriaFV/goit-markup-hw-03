@@ -57,12 +57,16 @@ ul{ list-style-type: none;}
     color: #2196F3;
 }
 
+
 .adress
 {
     padding: 0;
     display: flex;
     margin: 0;
     }
+
+.tit
+{padding-top: 50px;}
 .con1
  {padding-top: 94px;}
 
