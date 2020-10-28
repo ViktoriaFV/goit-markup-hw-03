@@ -165,12 +165,21 @@ ul{ list-style-type: none;}
 {
     padding: 0px;
     margin-top: 10px; 
-    margin-bottom: 0; 
+    margin-bottom: 0;
+    margin-right: 30px; 
+    margin-left: 0;
+    width: 270px;
+    height: 75px;
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.list-item {
+    margin-right: 0;
+} 
 .title
 {
     margin: 0;
@@ -316,7 +325,7 @@ ul{ list-style-type: none;}
     padding-bottom: 94px;
 }
 .porfimg
-{   padding-top: 50px;
+{   padding-top: 20px;
     padding-bottom: 19px;
     padding-right: 23px;
     padding-left: 23px;
